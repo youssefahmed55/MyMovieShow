@@ -45,6 +45,11 @@ build.gradle(Module) :
     `implementation 'com.intuit.sdp:sdp-android:1.0.6'`
 
 
+• Ssp
+
+
+`implementation 'com.intuit.ssp:ssp-android:1.0.6'`
+
 
 • CardView
 
