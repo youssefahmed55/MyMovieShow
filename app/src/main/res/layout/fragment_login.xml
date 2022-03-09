@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Login"
             android:textColor="#fff"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_30ssp"
             android:layout_margin="@dimen/_10sdp"
             ></TextView>
         <LinearLayout
@@ -79,7 +79,7 @@
             android:text="Keep me sign in"
             android:textColor="#FFFFFF"
             style="@style/TextAppearance.AppCompat.Medium"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:layout_margin="@dimen/_5sdp"
             ></CheckBox>
 
@@ -88,7 +88,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/Sign_in_login"
             android:textColor="#FFFFFF"
-            android:textSize="@dimen/_25sdp"
+            android:textSize="@dimen/_25ssp"
             android:text="Sign In"
             android:textAllCaps="false"
             android:layout_width="@dimen/_250sdp"
@@ -108,7 +108,7 @@
             android:text="Forget Password?"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="#fff"
-            android:textSize="@dimen/_13sdp"
+            android:textSize="@dimen/_13ssp"
             ></TextView>
         <View
             android:layout_width="fill_parent"
@@ -121,7 +121,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/Sign_Up_login"
             android:textColor="#FFFFFF"
-            android:textSize="@dimen/_25sdp"
+            android:textSize="@dimen/_25ssp"
             android:text="Sign Up"
             android:textAllCaps="false"
             android:layout_width="@dimen/_250sdp"
@@ -145,7 +145,7 @@
             android:layout_height="wrap_content"
             android:text="Or Sign In With"
             android:textColor="#fff"
-            android:textSize="@dimen/_13sdp"
+            android:textSize="@dimen/_13ssp"
             ></TextView>
 
            <ImageView

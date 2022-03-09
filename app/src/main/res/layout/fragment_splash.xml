@@ -28,7 +28,7 @@
             android:text="Movie Show"
             android:textColor="#000"
             android:fontFamily="sans-serif-black"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_30ssp"
             android:paddingTop="@dimen/_100sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"

@@ -48,7 +48,7 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:textColor="@color/black"
             android:layout_marginLeft="@dimen/_3sdp"
-            android:textSize="@dimen/_25sdp"></TextView>
+            android:textSize="@dimen/_25ssp"></TextView>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:textSize="@dimen/_20sdp"
+            android:textSize="@dimen/_20ssp"
             android:text="OverView: "
             android:textColor="@color/black"
             android:fontFamily="sans-serif-condensed-medium"
@@ -135,7 +135,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:textColor="@color/black"
             android:fontFamily="sans-serif-condensed-medium"
             android:layout_marginLeft="@dimen/_3sdp"

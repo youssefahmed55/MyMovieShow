@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:text="Explore Movies🔥"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="@dimen/_23sdp"
+            android:textSize="@dimen/_23ssp"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="#000"
             android:fontFamily="sans-serif-black"
@@ -65,7 +65,7 @@
             android:layout_height="match_parent"
             android:text="POPULAR MOVIES"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="#777474"
 
@@ -73,7 +73,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle1_home"
             android:layout_width="wrap_content"
-            android:layout_height="@dimen/_350sdp"
+            android:layout_height="@dimen/_370sdp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             android:orientation="horizontal"
 
@@ -83,7 +83,7 @@
             android:layout_height="match_parent"
             android:text="TOP RATING"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="#777474"
 
@@ -100,7 +100,7 @@
             android:layout_height="match_parent"
             android:text="UpComing"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             android:layout_margin="@dimen/_5sdp"
             android:textColor="#777474"
 

@@ -33,7 +33,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:fontFamily="sans-serif"
                 android:text="Joker"
-                android:textSize="@dimen/_15sdp"></TextView>
+                android:textSize="@dimen/_15ssp"></TextView>
             <TextView
                 android:id="@+id/Detailsofmovie_list2"
                 android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
                 android:text="2020-Action-2h-25m"
                 android:fontFamily="sans-serif-black"
                 android:layout_margin="@dimen/_5sdp"
-                android:textSize="@dimen/_10sdp"
+                android:textSize="@dimen/_10ssp"
                 ></TextView>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:text="Rating :"
                     android:fontFamily="sans-serif-black"
-                    android:textSize="@dimen/_10sdp"
+                    android:textSize="@dimen/_10ssp"
                     android:layout_gravity="center"
                     ></TextView>
                 <ImageView
@@ -73,7 +73,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="sans-serif-black"
                     android:layout_margin="@dimen/_5sdp"
-                    android:textSize="@dimen/_10sdp"
+                    android:textSize="@dimen/_10ssp"
                     ></TextView>
             </LinearLayout>
         </LinearLayout>

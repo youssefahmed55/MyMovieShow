@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:textColor="#fff"
-            android:textSize="@dimen/_30sdp"
+            android:textSize="@dimen/_30ssp"
             android:layout_margin="@dimen/_10sdp"
             ></TextView>
     <LinearLayout
@@ -126,7 +126,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/register_signup"
             android:textColor="@color/white"
-            android:textSize="@dimen/_25sdp"
+            android:textSize="@dimen/_25ssp"
             android:text="Register"
             android:textAllCaps="false"
             android:layout_width="@dimen/_250sdp"

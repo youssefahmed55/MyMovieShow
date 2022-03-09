@@ -29,7 +29,7 @@
             android:layout_margin="@dimen/_5sdp"
             android:fontFamily="sans-serif"
             android:text="Jokerrrrrrrrrrrr"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
             ></TextView>
         <LinearLayout
             android:layout_width="@dimen/_130sdp"
@@ -44,7 +44,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:fontFamily="sans-serif"
                 android:text="Joker"
-                android:textSize="@dimen/_10sdp"
+                android:textSize="@dimen/_10ssp"
                 android:layout_gravity="center"
                 ></TextView>
             <androidx.cardview.widget.CardView
@@ -75,7 +75,7 @@
                         android:text="5.3"
                         android:fontFamily="sans-serif-black"
                         android:layout_margin="@dimen/_5sdp"
-                        android:textSize="@dimen/_10sdp"
+                        android:textSize="@dimen/_10ssp"
                         android:layout_gravity="center"
                         ></TextView>
                 </LinearLayout>
