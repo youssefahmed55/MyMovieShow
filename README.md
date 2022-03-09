@@ -123,7 +123,16 @@ build.gradle(Module) :
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 
-• Youtybe View Player
+• Youtube View Player
 
 
    ` implementation files('libs/YouTubeAndroidPlayerApi.jar')`
+   
+   
+   Download APK:
+
+
+        https://www.mediafire.com/file/ntvssujgt6m316v/My+MovieShow.apk/file
+        
+        
+        
