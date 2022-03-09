@@ -1,10 +1,10 @@
 # MyMovieShow
 
 
-This App is for viewing Popular, Top Rating, UpComing Movies .
+This App is for viewing Popular, Top Rating, Upcoming Movies.
 
 
-you can watch Trailer of movies and Read Overwrite of them or you can Search for name of Movie that you want .
+you can watch a Trailer of movies and Read Overwrite them or you can search for the name of the movie that you want.
 
 
 build.gradle(Module) :
