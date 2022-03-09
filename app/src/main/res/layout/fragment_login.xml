@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:background="@drawable/imageoflogin"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="@dimen/_30sdp"
+            android:layout_margin="@dimen/_10sdp"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/btn"
+            android:layout_margin="@dimen/_5sdp"
+            >
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/ic_account_foreground"
+            android:layout_gravity="center"
+            ></ImageView>
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:hint="Email Adreess"
+            android:maxLines="1"
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textEmailAddress"
+            ></EditText>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btn"
+        >
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/ic_baseline_key_24"
+            android:layout_gravity="center"
+            ></ImageView>
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:hint="password"
+            android:maxLines="1"
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"
+            android:inputType="textPassword"
+            android:layout_margin="@dimen/_5sdp"
+              ></EditText>
+
+    </LinearLayout>
+        <CheckBox
+            android:id="@+id/keep_me_signin_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me sign in"
+            android:textColor="#FFFFFF"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="@dimen/_15sdp"
+            android:layout_margin="@dimen/_5sdp"
+            ></CheckBox>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Sign_in_login"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_25sdp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            ></androidx.appcompat.widget.AppCompatButton>
+        <TextView
+            android:id="@+id/forgetpassword_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:layout_margin="@dimen/_5sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            ></TextView>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="#3fff"
+            android:layout_margin="@dimen/_20sdp"
+            ></View>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Sign_Up_login"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_25sdp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_margin="@dimen/_5sdp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            ></androidx.appcompat.widget.AppCompatButton>
+  <View
+      android:layout_width="fill_parent"
+      android:layout_height="@dimen/_2sdp"
+      android:background="#3fff"
+      android:layout_margin="@dimen/_20sdp"
+      ></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or Sign In With"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            ></TextView>
+
+           <ImageView
+               android:id="@+id/imageofsigninwithgoogle_login"
+               android:layout_width="@dimen/_50sdp"
+               android:layout_height="@dimen/_50sdp"
+               android:src="@drawable/google"
+               android:layout_marginTop="@dimen/_10sdp"
+               ></ImageView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

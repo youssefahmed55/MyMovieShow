@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_5sdp"
+            app:cardBackgroundColor="#F5F5F5"
+            >
+    <ImageView
+        android:id="@+id/imageofmovie_list1"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/joker"
+        android:scaleType="fitXY"
+    ></ImageView>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/nameofmovie"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:fontFamily="sans-serif"
+            android:text="Jokerrrrrrrrrrrr"
+            android:textSize="@dimen/_15sdp"
+            ></TextView>
+        <LinearLayout
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/Detailsofmovie"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:fontFamily="sans-serif"
+                android:text="Joker"
+                android:textSize="@dimen/_10sdp"
+                android:layout_gravity="center"
+                ></TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="@dimen/_5sdp"
+                app:cardBackgroundColor="#EBE9EE"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+                    <ImageView
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/star"
+                        ></ImageView>
+                    <TextView
+                        android:id="@+id/rateofmovie"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="wrap_content"
+                        android:text="5.3"
+                        android:fontFamily="sans-serif-black"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        ></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>

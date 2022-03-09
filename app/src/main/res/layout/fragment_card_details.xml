@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CardDetailsFragment">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_card"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:scaleType="fitXY"
+                ></ImageView>
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:background="@drawable/gradient" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:textSize="@dimen/_25sdp"></TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_baseline_star_rate_24"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/textstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_baseline_vote_over_24"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/textlanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_baseline_bar_chart_24"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/textaveragevote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/ic_baseline_calendar_month_24"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/textdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                ></TextView>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text2_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textSize="@dimen/_20sdp"
+            android:text="OverView: "
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            ></TextView>
+        <TextView
+            android:id="@+id/text3_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginLeft="@dimen/_3sdp"
+            ></TextView>
+
+    </LinearLayout>
+    </ScrollView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/card2"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/watch_trial_card"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:text="Watch Trialer Now"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="#47A891"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintLeft_toRightOf="@+id/card1"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardBackgroundColor="#47A891"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/save_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_savedwhite_foreground"
+
+            ></androidx.appcompat.widget.AppCompatImageView>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

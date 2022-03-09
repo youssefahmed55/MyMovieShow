@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_lists"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.mymovieshow.LoginFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_LoginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.mymovieshow.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_forgetPasswordFragment"
+            app:destination="@id/forgetPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.mymovieshow.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.example.mymovieshow.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" />
+</navigation>
